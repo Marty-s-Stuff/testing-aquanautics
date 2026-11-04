@@ -6,7 +6,7 @@
 - **Fixed:** the Gauge's centre of gravity wasn't visible through blocks. A gold "CoG" marker now shows on screen over everything.
 - **Farming afloat:** farmland on a vessel always stays wet, and sugar cane grows on any dirt block aboard (no water beside it needed).
 - **Cruise control on the raft rudder:** put a lever on the rudder and switch it on. W/S set the speed, A/D hold a turn, and the raft keeps sailing when you leave the helm. It stops on its own if nobody is within 64 blocks or it would sail into unloaded land.
-- **Trees count as one block:** a tree grown on a vessel counts as a single block toward the limit, however big (its weight still counts).
+- **Trees count as one block:** a tree grown from a sapling on a vessel counts as a single block toward the limit, however big (its weight still counts). Logs you place yourself still count one each, even next to a tree. Trees grown on land before assembling count per log.
 - Guide book: new Cruise Control page and Farming Afloat entry.
 
 ## 1.0.1-alpha
