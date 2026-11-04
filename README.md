@@ -2,7 +2,7 @@
 
 Build hulls that really float, assemble them into rafts and sail them. This repository holds the alpha builds for testers: download the jar below and drop it into your `mods` folder.
 
-**Current build:** [`aquanautics-1.0.1-alpha.jar`](aquanautics-1.0.1-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
+**Current build:** [`aquanautics-1.0.2-alpha.jar`](aquanautics-1.0.2-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
 
 ## Requirements
 - Minecraft **1.21.1** with **NeoForge 21.1.265** or later
@@ -12,7 +12,7 @@ Build hulls that really float, assemble them into rafts and sail them. This repo
 ## Getting started
 1. Build a hull on the water. The **Sealed Barrel** and the **Stone/Metal Keels** can be placed straight onto the water surface.
 2. Put a **Rudder** at the stern (the way you face when placing it becomes the bow) and right-click it to assemble the raft.
-3. **Sneak + right-click** the rudder to take the helm: W/S ahead/astern, A/D to turn, `~` throttle lock, Left Shift to leave.
+3. **Sneak + right-click** the rudder to take the helm: W/S ahead/astern, A/D to turn, `~` throttle lock, Left Shift to leave. A lever on the rudder turns on cruise control.
 4. Craft the **Ultimate Guide to Aquanautics** (Sealed Barrel + Book, needs Patchouli) for everything else: sails, masts, mooring, the Gauge, weights.
 
 ## What to test

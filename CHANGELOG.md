@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.2-alpha
+- **Fixed:** grass blocks weighed less than dirt (150 kg vs 800 kg); grass, dirt, farmland and paths now all weigh like dirt.
+- **Fixed:** farmland, crops and sugar cane next to a raft were pulled into it when assembling. Build your farm after assembling.
+- **Fixed:** the Gauge's centre of gravity wasn't visible through blocks. A gold "CoG" marker now shows on screen over everything.
+- **Farming afloat:** farmland on a vessel always stays wet, and sugar cane grows on any dirt block aboard (no water beside it needed).
+- **Cruise control on the raft rudder:** put a lever on the rudder and switch it on. W/S set the speed, A/D hold a turn, and the raft keeps sailing when you leave the helm. It stops on its own if nobody is within 64 blocks or it would sail into unloaded land.
+- **Trees count as one block:** a tree grown on a vessel counts as a single block toward the limit, however big (its weight still counts).
+- Guide book: new Cruise Control page and Farming Afloat entry.
+
 ## 1.0.1-alpha
 - **Fixed:** minecarts (chest and hopper carts) on a vessel's rails weighed nothing and didn't count toward the block limit, so a raft could carry unlimited storage. Minecarts can no longer be placed on vessels ("Minecarts can't be used on vessels"); rails can still be used as decoration.
 
