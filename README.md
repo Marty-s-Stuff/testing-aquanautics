@@ -2,7 +2,7 @@
 
 Build hulls that really float, assemble them into rafts and sail them. This repository holds the alpha builds for testers: download the jar below and drop it into your `mods` folder.
 
-**Current build:** [`aquanautics-1.0.2-alpha.jar`](aquanautics-1.0.2-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
+**Current build:** [`aquanautics-1.0.3-alpha.jar`](aquanautics-1.0.3-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
 
 ## Requirements
 - Minecraft **1.21.1** with **NeoForge 21.1.265** or later
