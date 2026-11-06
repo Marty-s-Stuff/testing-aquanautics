@@ -1,8 +1,8 @@
 # Aquanautics: alpha testing
 
-Build hulls that really float, assemble them into rafts and sail them. This repository holds the alpha builds for testers: download the jar below and drop it into your `mods` folder.
+Build hulls that really float, assemble them into rafts and ships and sail them. This repository holds the alpha builds for testers: download the jar below and drop it into your `mods` folder.
 
-**Current build:** [`aquanautics-1.0.3-alpha.jar`](aquanautics-1.0.3-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
+**Current build:** [`aquanautics-1.0.4-alpha.jar`](aquanautics-1.0.4-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
 
 ## Requirements
 - Minecraft **1.21.1** with **NeoForge 21.1.265** or later
@@ -16,7 +16,7 @@ Build hulls that really float, assemble them into rafts and sail them. This repo
 4. Craft the **Ultimate Guide to Aquanautics** (Sealed Barrel + Book, needs Patchouli) for everything else: sails, masts, mooring, the Gauge, weights.
 
 ## What to test
-This alpha is **tier 1 only** (rafts: up to 64 blocks, one rudder, up to 3 blocks/s). Tier 2 parts are disabled.
+Tier 1 (rafts: up to 64 blocks, one rudder, up to 3 blocks/s) and **tier 2** (ships: Ship Rudder + Ship's Wheel, up to 512 blocks, up to 9.2 blocks/s). New in 1.0.4: tier 2 ships, the Mooring Line and the Bollard.
 
 Dev tools are included in these builds: the **Dev Assembler** (no block limit) and sneak + right-click with a **stick** to read a block's density.
 

@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.0.4-alpha
+**Tier 2 is open: sailing ships.**
+- **Ship Rudder and Ship's Wheel:** a ship needs both (either one assembles it). Up to 512 blocks, masts up to 16 tall, yards up to 9 wide. The wheel takes the helm; a lever on it is the autopilot. Both can be disguised like the raft's rudder. Recipes: rudder = iron, planks, slab, redstone; wheel = iron block, planks, slab, redstone block (see JEI or the guide).
+- **Sail speed, both tiers:** every carpet of sail adds 0.1 blocks/s. A raft counts up to 20 carpets (one full 5x4 sail: 3 blocks/s in all); a ship up to 72 (two full 9x4 sails: 2 + 7.2 = 9.2 blocks/s). Raft sails can now have 4 rows. All limits are per tier in the config (`tiers.raft`, `tiers.t2`).
+- **Mooring Line** (three leads): a thicker line that reaches 15 blocks (a lead reaches 10).
+- **Bollard** (iron ingots, iron block, heavy pressure plate): an iron mooring post. A rope coils around it while a line is tied.
+- **Mooring rules:** rafts use a lead or a mooring line, on fence posts or bollards. Ships use only a mooring line, only between two bollards (one on the ship, one on shore).
+- **Mooring:** the line now follows your hand while you walk to shore; right-click the first post again to cancel.
+- **Keel recipes:** five blocks in a U make five keels (cobblestone for Stone Keels, iron blocks for Metal Keels).
+- **Config:** if you edited `aquanautics-common.toml` before, the old sail settings are replaced by the new per-tier ones.
+- Guide book: new Ship's Wheel page; Sails and Mooring pages updated.
+
 ## 1.0.3-alpha
 - **No liquids on vessels:** a bucket of water, lava or any other liquid can't be poured onto a vessel ("Liquids can't be poured onto vessels"), nor into a slab, stair or other waterloggable block aboard.
 - **Water stays out of assembly:** water, kelp, seagrass and bubble columns are no longer pulled into a raft, and waterlogged blocks (slabs, stairs, fences, the rudder...) are drained when the raft is assembled.
