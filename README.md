@@ -2,7 +2,7 @@
 
 Build hulls that really float, assemble them into rafts and ships and sail them. This repository holds the alpha builds for testers: download the jar below and drop it into your `mods` folder.
 
-**Current build:** [`aquanautics-1.0.4-alpha.jar`](aquanautics-1.0.4-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
+**Current build:** [`aquanautics-1.0.5-alpha.jar`](aquanautics-1.0.5-alpha.jar) (see [CHANGELOG.md](CHANGELOG.md))
 
 ## Requirements
 - Minecraft **1.21.1** with **NeoForge 21.1.265** or later
@@ -21,7 +21,7 @@ Tier 1 (rafts: up to 64 blocks, one rudder, up to 3 blocks/s) and **tier 2** (sh
 Dev tools are included in these builds: the **Dev Assembler** (no block limit) and sneak + right-click with a **stick** to read a block's density.
 
 ## Known issues
-- **With Sodium installed, water shows inside hulls.** Sable only hides hull water on the vanilla renderer. Hulls still float correctly; it is only visual.
+- **With an Iris shader pack on, water shows inside hulls.** Shader packs draw water with their own shaders. Without a shader pack (Sodium alone is fine) hulls are dry. It is only visual: hulls still float correctly.
 - Worlds from earlier test builds may have missing blocks (old Wooden Keels and 3x3 sails).
 
 ## Reporting bugs

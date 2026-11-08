@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5-alpha
+- **Fixed:** with Sodium installed, world water showed inside every hull. Hulls are now dry with Sodium too.
+- **Shader packs (Iris):** water still shows inside hulls while a shader pack is on, because the pack draws water with its own shaders.
+
 ## 1.0.4-alpha
 **Tier 2 is open: sailing ships.**
 - **Ship Rudder and Ship's Wheel:** a ship needs both (either one assembles it). Up to 512 blocks, masts up to 16 tall, yards up to 9 wide. The wheel takes the helm; a lever on it is the autopilot. Both can be disguised like the raft's rudder. Recipes: rudder = iron, planks, slab, redstone; wheel = iron block, planks, slab, redstone block (see JEI or the guide).
